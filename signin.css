@@ -1,0 +1,76 @@
+
+* {box-sizing: border-box}
+
+.container {
+  padding: 5px 30px 30px 30px;
+  display: inline-block;
+  position: absolute;
+  top: 100;
+  left: 35%;
+
+}
+
+div{
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  box-shadow: 0 1.5px 4px #ffffffa2;
+  background: #2A4F52;
+
+}
+
+h1{
+  text-align: center;
+}
+
+input[type=name], input[type=fam], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #d5e0ff;
+  cursor: text;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+hr {
+  border: 1px solid #00ffdda9;
+  margin-bottom: 15px;
+  border-width: 100%;
+  
+}
+
+.signin {
+  background-color: #6026ff8c;
+  color: rgb(0, 0, 0);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.signin:hover {
+  opacity:1;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.signin {
+
+  text-align: center;
+}
